@@ -7,24 +7,28 @@
     <link rel="stylesheet" href="grid.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body>
 
     <div class="col parallax">
-        <h1>Eu sou um parallax boladão</h1>
+        <a id="up" href="#down">down</a>
+        <h1>Eu sou um parallax responsivo</h1>
     </div>
     <div class="col col-2 bg-full bg-black">
-        <h1>Sou uma coluna full screen responsiva</h1>
+        <h1>Sou uma coluna responsiva</h1>
     </div>
     <div class=" col col-2 bg-full bg-blue">
         <h1>E eu também!</h1>
     </div>
 
-    <div class="bg-full bg-red">
+    <div class="bg-full bg-red" id="down">
         <h1>Eu sou uma coluna full screen responsiva</h1>
 
     </div>
 </body>
+    
+  <script type="text/javascript" src="js.js"></script>
 
 </html>
